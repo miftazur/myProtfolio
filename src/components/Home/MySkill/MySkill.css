@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+    .skill-section{
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }

@@ -1,0 +1,35 @@
+.projects{
+    display: inline-block;
+    position: relative;
+}
+.image{
+    width: 500px;
+    height: 250px;
+    box-shadow: 0 0 8px 1px;
+}
+
+.projects:hover .image{
+    filter:opacity(40%);
+    -webkit-filter:opacity(40%);
+    transition:0.3s ease-in-out
+}
+
+.hover-effect{
+    display: none;
+    position: absolute;
+}
+
+.projects:hover .hover-effect{
+    display: block;
+    position: relative;
+    margin-top: -150px;
+    color: rgb(236, 233, 221);
+}
+@media only screen and (max-width: 600px) {
+    .project-section{
+        width: 100%;
+    }
+    .image{
+        width: 350px;
+    }
+}
