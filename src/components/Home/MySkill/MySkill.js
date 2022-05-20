@@ -62,7 +62,7 @@ const MySkill = () => {
                     <h6>70%</h6>
                 </div>
                 <div className="progress">
-                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '70%' }}>NodeJS</div>
+                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '70%' }}>Dgango</div>
                 </div>
             </div>
             <div data-aos='fade-up' className='w-75 mx-auto mt-3'>
@@ -71,7 +71,7 @@ const MySkill = () => {
                     <h6>80%</h6>
                 </div>
                 <div className="progress">
-                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}>NodeJS</div>
+                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}>Python</div>
                 </div>
             </div>
         </div>
